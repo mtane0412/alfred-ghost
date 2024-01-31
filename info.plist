@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string></string>
+	<key>connections</key>
+	<dict>
+		<key>28D2C403-A56B-41AC-84C6-748E3EFBBE5E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>BC363AEB-FA8E-4A2E-8CAD-62C07BC353F4</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>BB087FE0-9FCE-4464-8D7C-17F0C8AFE8E1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>7CF818FA-A81D-436C-86CD-0DA99BCCCF30</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>E8BC2F85-CA40-4FE6-ACE3-EA04F9396CCD</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>02D78C53-4332-4E7A-B8D2-5391A33D6C72</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>3A821A41-4EFE-4FBC-BEB9-1D66D796824A</string>
+				<key>modifiers</key>
+				<integer>131072</integer>
+				<key>modifiersubtext</key>
+				<string>open post</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>mtane0412</string>
+	<key>description</key>
+	<string></string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>Ghost</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>Ghost n</string>
+				<key>subtext</key>
+				<string>Create new post on Ghost</string>
+				<key>text</key>
+				<string>Ghost new</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>28D2C403-A56B-41AC-84C6-748E3EFBBE5E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://{var:domain}.ghost.io/ghost/#/editor/post</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>BC363AEB-FA8E-4A2E-8CAD-62C07BC353F4</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>ghost o</string>
+				<key>subtext</key>
+				<string>open dashboard</string>
+				<key>text</key>
+				<string>Ghost open</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>BB087FE0-9FCE-4464-8D7C-17F0C8AFE8E1</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>https://{var:domain}.ghost.io/ghost/#/dashboard</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>7CF818FA-A81D-436C-86CD-0DA99BCCCF30</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<true/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>escaping</key>
+				<integer>68</integer>
+				<key>keyword</key>
+				<string>ghost s</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<false/>
+				<key>queuedelaymode</key>
+				<integer>1</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string>loading...</string>
+				<key>script</key>
+				<string>on run argv
+    set query to item 1 of argv
+	-- Alfredの環境変数からAPIキーを取得
+    set apiKey to system attribute "GHOST_CONTENT_API_KEY"
+	-- Alfredの環境変数からdomainを取得
+	set domain to system attribute "domain"
+	-- URL作成
+    set apiUrl to "https://" &amp; domain &amp; ".ghost.io/ghost/api/content/posts/?key=" &amp; apiKey &amp; "&amp;filter=title:~'" &amp; query &amp; "'&amp;fields=title,url"
+
+    -- APIにリクエストを送信して結果を取得
+    set curlCommand to "curl -s \"" &amp; apiUrl &amp; "\""
+    set response to do shell script curlCommand
+
+    -- jqを使用してJSONを解析し、Alfred用のフォーマットに変換
+    set jqCommand to "echo " &amp; quoted form of response &amp; " | jq -r '{items: [.posts[] | {title: .title, subtitle: .url, arg: .url}]}'"
+    set alfredJson to do shell script jqCommand
+
+    return alfredJson
+end run
+</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>search posts with title</string>
+				<key>title</key>
+				<string>ghost search</string>
+				<key>type</key>
+				<integer>6</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>E8BC2F85-CA40-4FE6-ACE3-EA04F9396CCD</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>autopaste</key>
+				<false/>
+				<key>clipboardtext</key>
+				<string>{query}</string>
+				<key>ignoredynamicplaceholders</key>
+				<false/>
+				<key>transient</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.clipboard</string>
+			<key>uid</key>
+			<string>02D78C53-4332-4E7A-B8D2-5391A33D6C72</string>
+			<key>version</key>
+			<integer>3</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>browser</key>
+				<string></string>
+				<key>skipqueryencode</key>
+				<false/>
+				<key>skipvarencode</key>
+				<false/>
+				<key>spaces</key>
+				<string></string>
+				<key>url</key>
+				<string>{query}</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.openurl</string>
+			<key>uid</key>
+			<string>3A821A41-4EFE-4FBC-BEB9-1D66D796824A</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string></string>
+	<key>uidata</key>
+	<dict>
+		<key>02D78C53-4332-4E7A-B8D2-5391A33D6C72</key>
+		<dict>
+			<key>xpos</key>
+			<real>235</real>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
+		<key>28D2C403-A56B-41AC-84C6-748E3EFBBE5E</key>
+		<dict>
+			<key>xpos</key>
+			<real>75</real>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>3A821A41-4EFE-4FBC-BEB9-1D66D796824A</key>
+		<dict>
+			<key>xpos</key>
+			<real>235</real>
+			<key>ypos</key>
+			<real>435</real>
+		</dict>
+		<key>7CF818FA-A81D-436C-86CD-0DA99BCCCF30</key>
+		<dict>
+			<key>xpos</key>
+			<real>235</real>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+		<key>BB087FE0-9FCE-4464-8D7C-17F0C8AFE8E1</key>
+		<dict>
+			<key>xpos</key>
+			<real>75</real>
+			<key>ypos</key>
+			<real>180</real>
+		</dict>
+		<key>BC363AEB-FA8E-4A2E-8CAD-62C07BC353F4</key>
+		<dict>
+			<key>xpos</key>
+			<real>235</real>
+			<key>ypos</key>
+			<real>60</real>
+		</dict>
+		<key>E8BC2F85-CA40-4FE6-ACE3-EA04F9396CCD</key>
+		<dict>
+			<key>xpos</key>
+			<real>75</real>
+			<key>ypos</key>
+			<real>300</real>
+		</dict>
+	</dict>
+	<key>userconfigurationconfig</key>
+	<array/>
+	<key>variables</key>
+	<dict>
+		<key>GHOST_CONTENT_API_KEY</key>
+		<string></string>
+		<key>domain</key>
+		<string></string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>GHOST_CONTENT_API_KEY</string>
+		<string>domain</string>
+	</array>
+	<key>version</key>
+	<string></string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
